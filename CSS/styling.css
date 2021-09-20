@@ -1,0 +1,147 @@
+html {
+
+    height: 100%;
+    background: radial-gradient(circle, white, gray);
+
+}
+
+
+
+
+
+#container {
+    height: 600px;
+    width: 750px;
+    background-color: #9DD2EA;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    position: relative;
+
+}
+
+#score {
+    background-color: #f8f558;
+    color: #30ab61;
+    font-size: 20px;
+    padding: 12px 10px;
+    display: inline-block;
+    float: right;
+    box-shadow: 0px 4px 0px 0px #a5aa08;
+
+}
+
+
+
+
+
+#fruitcontainer {
+    width: 650px;
+    height: 400px;
+    margin: 60px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px 0px 0px #961ce2;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: #371839;
+    position: relative;
+    overflow-y: hidden;
+
+}
+
+#instruction {
+    width: 450px;
+    height: 50px;
+    background-color: #7f56e5;
+    margin: 10px auto;
+    box-shadow: 0px 4px 4px 0px #34132d;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#startreset {
+    width: 100px;
+    height: 30px;
+    background-color: azure;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px 0px 0px #8c8c8c;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 32px;
+    font-size: 15px;
+    font-family: cursive;
+    color: darkgray;
+    position: relative;
+    transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o- transition: all 0.5s;
+    -ms- transition: all 0.5s;
+}
+
+#startreset:hover {
+    background-color: #c465ff;
+    box-shadow: 0px 4px 0px 0px #961ce2;
+    color: white;
+}
+
+#startreset:active {
+    box-shadow: none;
+    top: 4px;
+}
+
+#trialsleft {
+    width: 80px;
+    padding: 10px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    bottom: 570px;
+    background-color: #f8f558;
+    box-shadow: 0px 4px 5px 0px #8cab10;
+    border-radius: 5px;
+    /*    visibility: hidden;*/
+    display: none;
+}
+
+#gameover {
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(#f7a059, #d55757);
+    font-family: serif;
+    font-size: 50px;
+    text-align: center;
+    line-height: 30px;
+    color: #50345a;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+    display: none;
+    text-transform: uppercase;
+}
+.life{
+    
+    width: 16px;
+    height: 16px;
+    margin: 0 3px;
+}
+
+.fruit {
+    display: none;
+    position: absolute;
+}
